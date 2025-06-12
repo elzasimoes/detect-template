@@ -1,0 +1,6 @@
+
+[tool.ruff]
+include = ["*.py", "**/*.py"]
+exclude = ["venv", ".venv", "__pycache__", "migrations", "node_modules"]
+line-length = 88
+fix = true
